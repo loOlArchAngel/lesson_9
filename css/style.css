@@ -1,0 +1,52 @@
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Regular.woff2") format('woff2'), url("../fonts/Lato-Regular.woff") format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Bold.woff2") format('woff2'), url("../fonts/Lato-Bold.woff") format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Lato';
+   src: url("../fonts/Lato-Black.woff2") format('woff2'), url("../fonts/Lato-Black.woff") format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
+.head__container,
+.image__container,
+.footer__container{
+   max-width: 1200px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+.image__container img{
+   max-width: 100%;
+}
+
+h1{
+   font-family: "Lato";
+   font-size: 46px;
+   text-align: center;
+   text-transform: uppercase;
+   text-shadow: 10px 10px 10px rgb(119, 19, 19);
+   padding-top: 10px;
+}
+.footer__container{
+   font-family: "Lato";
+   font-size: 46px;
+   border: 2px solid orange;
+   text-align: center;
+   text-shadow: 2px 2px 2px rgb(14, 95, 216);
+   text-transform: uppercase;
+   width: 150px;
+}
